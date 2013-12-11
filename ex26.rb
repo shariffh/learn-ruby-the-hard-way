@@ -70,7 +70,7 @@ def secret_formula(started)
 end
 
 start_point = 10000
-beans, jars, crates == secret_formula(start-point)
+beans, jars, crates = secret_formula(start-point)
 
 puts "With a starting point of: %d" % start_point
 puts "We'd have %d jeans, %d jars, and %d crates." % (beans, jars, crates)
