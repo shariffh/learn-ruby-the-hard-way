@@ -6,12 +6,12 @@ end
 
 # Sorts the words.
 def sort_words(words)
-    return sorted(words)
+    return words.sort()
 end
 
 # Prints the first word after popping it off.
 def puts_first_word(words)
-    word = words.poop(0)
+    word = words.pop(0)
     puts word
 end
 
