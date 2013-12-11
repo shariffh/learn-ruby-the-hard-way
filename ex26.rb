@@ -83,8 +83,8 @@ puts "We'd have %d beans, %d jars, and %d crates." % secret_formula(start_point)
 
 sentence = "All god things come to those who weight."
 
-words = ex25.break_words(sentence)
-sorted_words = ex25.sort_words(words)
+words = break_words(sentence)
+sorted_words = sort_words(words)
 
 puts_first_word(words)
 puts_last_word(words)
