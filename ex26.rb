@@ -17,7 +17,7 @@ end
 
 # Prints the last word after popping it off.
 def puts_last_word(words)
-    word = words.pop(-1)
+    word = words.pop()
     puts word
 end
 
