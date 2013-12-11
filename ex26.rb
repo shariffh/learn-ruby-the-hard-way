@@ -78,7 +78,7 @@ puts "We'd have %d jeans, %d jars, and %d crates." % [beans, jars, crates]
 start_point = start_point / 10
 
 puts "We can also do that this way:"
-puts "We'd have %d beans, %d jars, and %d crabapples." % secret_formula(start_pont)
+puts "We'd have %d beans, %d jars, and %d crates." % secret_formula(start_point)
 
 
 sentence = "All god things come to those who weight."
