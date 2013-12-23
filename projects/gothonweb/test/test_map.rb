@@ -1,7 +1,7 @@
 require 'test/unit'
-require_relative '../lib/ex47'
+require_relative '../lib/map'
 
-class MyUnitTests < Test::Unit::TestCase
+class MapTests < Test::Unit::TestCase
 
   def test_room()
     gold = Room.new("GoldRoom","""This room has gold in it you can grab. There's a door to the north.""")
